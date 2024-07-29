@@ -4,4 +4,4 @@ local window = Library.new("PlaxHub") -- Args(<string> Name, <boolean?> Constrai
 
 window:LockScreenBoundaries(true) -- Args(<boolean> ConstrainToScreen)
 
-local tab = window:Tab("Main") -- Args(<string> Name, <string?> TabImage)
+local tab = window:Tab("Main","4483362458") -- Args(<string> Name, <string?> TabImage)
