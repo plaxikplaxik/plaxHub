@@ -5,4 +5,4 @@ window:LockScreenBoundaries(true)
 
 local Tab_Main = window:Tab("Main")
 
-local Section_Player = MainTab:Section("Player")
+local Section_Player = Tab_Main:Section("Player")
