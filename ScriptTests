@@ -1,0 +1,8 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jxereas/UI-Libraries/main/cerberus.lua"))()
+
+local window = Library.new("PlaxHub")
+window:LockScreenBoundaries(true)
+
+local Tab_Main = window:Tab("Main")
+
+local Section_Player = MainTab:Section("Player")
